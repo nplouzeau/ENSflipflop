@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "stateoff.h"
+#include "flipflop.h"
 
 void StateOff::handle() {
     std::cerr << "Off -> On" << std::endl;

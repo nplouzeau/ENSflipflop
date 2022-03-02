@@ -3,5 +3,12 @@
 //
 
 #include "state.h"
+#include "flipflop.h"
+
+class FlipFlop;
 
 State::State(FlipFlop &_flip) : flipFlop(_flip) {}
+
+State::~State() {
+
+}

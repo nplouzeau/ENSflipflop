@@ -5,13 +5,14 @@
 #pragma once
 
 
-#include "flipflop.h"
+//#include "flipflop.h"
 
 class FlipFlop;
 
 class State {
 public:
     State(FlipFlop& _flip);
+    virtual ~State();
     virtual void handle() = 0;
 protected:
     FlipFlop& flipFlop;
